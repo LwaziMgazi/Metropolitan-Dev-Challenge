@@ -4,7 +4,7 @@
 # This project was build using Angular CLI : 8.3.27 and nodejs:12.19.0
 Installation and Setup Instructions
 
-1. ensure that you have Angular 8 install on your local machine  and Nodejs. 
+1. Ensure that you have Angular 8 install on your local machine  and Nodejs. 
 2. There are two folders for this project 
     i. Serverside folder for  backend sever and querying the gateway.marvel.com endpoint api .
     ii. clientside folder for displaying UI to the user and handling the user interaction with the website.
@@ -16,6 +16,6 @@ Installation and Setup Instructions
   i. ng server, this  runs the app in development mode. Open http://localhost:4200 to view it in the browser.
   
 All the dependencies of the project are lists in the package.json file.
-The downloadable zip folder is about 67MB
+The downloadable zip folder is about 7MB
 
-Thank you
+Thank you very much
