@@ -1,0 +1,52 @@
+type Query{
+    characters:datas
+    character(id:Int): singleCharacter
+}
+
+type singleCharacter{
+    status: String  
+   data:singleresults
+}
+
+type datas{
+    data:results
+     
+}
+
+type results{
+    results:[outcomes]
+    # name:String
+}
+
+type outcomes{
+    id: ID!
+    name:String
+}
+
+type singleresults{
+    offset:Int
+    results:[lwazi]
+   
+}
+type lwazi{
+    name:String
+    thumbnail:imageurl
+     comics:allcomics
+     stories: allstories
+}
+type imageurl{
+    path:String
+    extension:String 
+}
+
+type allcomics{
+    available:Int
+    items:[item]
+}
+type allstories{
+    items:[item]
+}
+
+type item{
+    name: String
+}
